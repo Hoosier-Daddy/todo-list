@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: linear-gradient(to right,#000046,#1CB5E0);
+	background-image: linear-gradient(to right,#1f4037,#99f2c8);
 	font-family: 'Averia Serif Libre', cursive;
 	font-weight: 500;
 }
@@ -21,7 +21,7 @@ form {
 .todo-input,
 .add-button {
 	border: none;
-	padding: 0.5rem;
+	padding: 0.7rem;
 }
 
 .todo-input {
@@ -71,6 +71,7 @@ form {
 .todo {
 	flex-grow: 1;
 	padding: 0.2rem;
+	padding-left: 1rem;
 }
 
 .complete-button,
@@ -118,7 +119,7 @@ select {
 	color: #ff6f47;
 	width: 100px;
 	cursor: pointer;
-	padding: 3px;
+	padding: 4px;
 }
 
 .select::after {
